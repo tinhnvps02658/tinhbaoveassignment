@@ -1,0 +1,135 @@
+/* CSS Document */
+* {
+margin: 0;
+padding: 0;
+}
+ol,ul{list-style: none;}
+img{border:none; vertical-align:top;}
+#price{color:red; font-weight:bold;}
+div#layout {
+border: 1px solid #a3a2a3;
+margin: 20px auto;
+width: 901px;
+}
+	div#header{
+	width:901px;
+	height:200px;	
+	background-image:url(../images/banner-laptop.jpg);
+	}<!--/divheader-->
+	div#gNaV{
+	width:900px;
+	height:30px;
+	background-color:#0CF;
+	}
+		div#gNaV li{
+		display:inline;
+		border-right: solid 1px #333;
+		padding:0px 5px;
+		}<!--/li-->
+	div#empty{
+	width:900px;
+	height:10px;
+	background-color:#F00;
+	}<!--/divempty-->
+	div#content{
+	width:900px;
+	background-color:#966;	
+	}
+		div#content div#leftCT{
+		width:200px;	
+		float:left;
+		background-color:#FFF;
+		}
+			div#content div#leftCT div#DMSP{
+			width:200px;
+			height:130px;
+			background-color:#FFF;	
+			}
+				div#layout div#content div#leftCT div#DMSP div#DMSP1{
+				background-color:#FC9;
+				font-weight:bold;
+				height:20px;
+				padding-top:5px;
+				text-align:center;
+				}
+				div#layout div#content div#leftCT div#DMSP div#DMSP2 li{
+				display:block;
+				}
+				a{
+				text-decoration:none;
+				}
+			div#content div#leftCT div#TTNB{
+			width:200px;
+			height:500px;
+			background-color:#FFF;
+			margin-top:10px;	
+			text-align:center;
+			}
+				
+				div#content div#leftCT div#TTNB div#TTNB1{
+				background-color:#FC9;
+				font-weight:bold;
+				height:20px;
+				padding-top:5px;	
+				}
+				div#content div#leftCT div#TTNB div#TTNB2{
+				background-color:#FFF;
+				width:200px;
+				}
+					div#content div#leftCT div#TTNB div#TTNB2 img{
+					margin: 5px 10px;	
+					}
+					div#content div#leftCT div#TTNB div#TTNB2 p{
+					text-align:center;	
+					}
+				div#content div#leftCT div#TTNB div#TTNB3{
+				background-color:#FFF;
+				width:200px;
+				border-top:1px solid #FC9;
+				}
+					div#content div#leftCT div#TTNB div#TTNB3 img{
+					margin: 5px 10px;	
+					}
+					div#content div#leftCT div#TTNB div#TTNB3 p{
+					text-align:center;	
+					}
+		div#content div#rightCT{
+		width:700px;
+		float:left;	
+		border-left:1px solid #FC6;
+		}
+				div#content div#rightCT div#gioithieu{
+				width:700px;
+				background-color:#FC6;		
+				}
+				
+					
+						
+	div#footer{
+	width:900px;
+	height:60px;
+	background-color:#FC3;
+	clear:both;	
+	}
+		div#footer div#leftF{
+		float:left;
+		padding-left:10px;
+		padding-top:2px;	
+		}	
+		div#footer div#rightF{
+		float:right;
+		padding-right:10px;
+		padding-top:2px;	
+		}			
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
